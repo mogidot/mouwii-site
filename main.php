@@ -483,7 +483,7 @@ echo "
 
     <div class='header-nav-item header-nav-item--collection'>
       <a
-        href='/about'
+        href='about'
         data-animation-role='header-element'
 
       >
@@ -499,7 +499,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='/magazine'
+        href='magazine'
 
         data-animation-role='header-element'
 
@@ -523,7 +523,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='/features'
+        href='features'
 
         data-animation-role='header-element'
 
@@ -695,7 +695,7 @@ echo "
 
     <div class='header-nav-item header-nav-item--collection'>
       <a
-        href='/about'
+        href='about'
         data-animation-role='header-element'
 
       >
@@ -711,7 +711,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='/magazine'
+        href='magazine'
 
         data-animation-role='header-element'
 
@@ -731,7 +731,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='/features'
+        href='features'
 
         data-animation-role='header-element'
 
@@ -1005,7 +1005,7 @@ echo "
 
   <div class='container header-menu-nav-item header-menu-nav-item--collection'>
     <a
-      href='/about'
+      href='about'
 
     >
       <div class='header-menu-nav-item-content'>
@@ -1016,8 +1016,8 @@ echo "
 
   <div class='container header-menu-nav-item'>
     <a
-      data-folder-id='/magazine'
-      href='/magazine'
+      data-folder-id='magazine'
+      href='magazine'
 
     >
       <div class='header-menu-nav-item-content'>
@@ -1027,7 +1027,7 @@ echo "
       </div>
     </a>
   </div>
-  <div data-folder='/magazine' class='header-menu-nav-folder'>
+  <div data-folder='magazine' class='header-menu-nav-folder'>
     <div class='header-menu-nav-folder-content'>
     <div class='header-menu-controls container header-menu-nav-item'>
       <a class='header-menu-controls-control header-menu-controls-control--active' data-action='back' href='/'>
@@ -1042,8 +1042,8 @@ echo "
 
   <div class='container header-menu-nav-item'>
     <a
-      data-folder-id='/features'
-      href='/features'
+      data-folder-id='features'
+      href='features'
 
     >
       <div class='header-menu-nav-item-content'>
@@ -1053,7 +1053,7 @@ echo "
       </div>
     </a>
   </div>
-  <div data-folder='/features' class='header-menu-nav-folder'>
+  <div data-folder='features' class='header-menu-nav-folder'>
     <div class='header-menu-nav-folder-content'>
     <div class='header-menu-controls container header-menu-nav-item'>
       <a class='header-menu-controls-control header-menu-controls-control--active' data-action='back' href='/'>
