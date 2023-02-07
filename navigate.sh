@@ -1,0 +1,3 @@
+php FEATURES_MENU_NAV-template.php > FEATURES_MENU_NAV.html
+php CONTAINER_MENU_NAV-template.php > CONTAINER_MENU_NAV.html
+php MAGAZINE_MENU_NAV-template.php > MAGAZINE_MENU_NAV.html
