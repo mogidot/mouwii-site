@@ -1,0 +1,1 @@
+<p class="sqsrte-small" style="white-space:pre-wrap;">$COVER_DESCRIPTION</p>
