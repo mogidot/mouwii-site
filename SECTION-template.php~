@@ -8,11 +8,11 @@ $data = tsv_to_array($file, array('header_row'=>true, 'remove_header_row'=>true)
 foreach($data as $item)
 {
 
-
+$SECTION_LIST_ITEMS="pop"; /*$item["SECTION_LIST_ITEMS"];*/
 $SECTION_NAME=$item["SECTION_NAME"];
 
 $USER_ITEMS_DATA=implode(" ",file("itemdata/$SECTION_NAME.dat"));
-$SECTION_LIST_ITEMS=implode(" ",file("itemdata/$SECTION_NAME.html"));
+
 echo
 "
 <section

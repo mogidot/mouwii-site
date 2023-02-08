@@ -1,7 +1,23 @@
-<section
-  data-test="page-section"
 
-  data-section-theme="white"
+<?php
+$file = __DIR__.'/SECTIONS.tsv';
+$data = tsv_to_array($file, array('header_row'=>true, 'remove_header_row'=>true));
+
+
+foreach($data as $item)
+{
+
+$SECTION_LIST_ITEMS=$item["SECTION_LIST_ITEMS"];
+$SECTION_NAME=$item["SECTION_NAME"];
+
+$USER_ITEMS_DATA=implode(" ",file("itemdata/$SECTION_NAME.dat"));
+
+echo
+"
+<section
+  data-test='page-section'
+
+  data-section-theme='white'
   class='page-section
 
       user-items-list-section
@@ -22,10 +38,10 @@
 
     white'
 
-  data-section-id="63a4c9984655f07a0fe899bd"
+  data-section-id='63a4c9984655f07a0fe899bd'
 
-  data-controller="SectionWrapperController"
-  data-current-styles="{
+  data-controller='SectionWrapperController'
+  data-current-styles='{
 &quot;imageFocalPoint&quot;: {
 &quot;x&quot;: 0.5,
 &quot;y&quot;: 0.5
@@ -36,8 +52,8 @@
 &quot;imageEffect&quot;: &quot;none&quot;,
 &quot;backgroundMode&quot;: &quot;image&quot;,
 &quot;backgroundImage&quot;: null
-}"
-  data-current-context="{
+}'
+  data-current-context='{
 &quot;video&quot;: {
 &quot;filter&quot;: 1,
 &quot;videoFallbackContentItem&quot;: null,
@@ -52,18 +68,18 @@
 &quot;enabled&quot;: false
 },
 &quot;typeName&quot;: &quot;page&quot;
-}"
-  data-animation=""
+}'
+  data-animation=''
 
   data-json-schema-section
 
 
 >
   <div
-    class="section-border"
+    class='section-border'
 
   >
-    <div class="section-background">
+    <div class='section-background'>
 
 
 
@@ -71,7 +87,7 @@
   </div>
 
   <div
-    class="content-wrapper"
+    class='content-wrapper'
     style='
 
 
@@ -79,7 +95,7 @@
     '
   >
     <div
-      class="content"
+      class='content'
 
     >
 
@@ -107,27 +123,27 @@
 
 
 <div
-  class="user-items-list"
-  style="
+  class='user-items-list'
+  style='
     min-height: 100px;
     padding-top: 3.3vmax;
     padding-bottom: 3.3vmax;
-    "
-  data-card-theme=""
-  data-section-id="user-items-list"
-  data-section-title-enabled="true"
-  data-space-below-section-title-value="40"
-  data-space-below-section-title-unit="px"
-  data-layout-width="full"
+    '
+  data-card-theme=''
+  data-section-id='user-items-list'
+  data-section-title-enabled='true'
+  data-space-below-section-title-value='40'
+  data-space-below-section-title-unit='px'
+  data-layout-width='full'
 >
 
 
-    <div class="list-section-title"
-      id="63a4c9984655f07a0fe899bd"
-      style= "padding-bottom: 40px;"
-      data-section-title-alignment="left"
+    <div class='list-section-title'
+      id='63a4c9984655f07a0fe899bd'
+      style= 'padding-bottom: 40px;'
+      data-section-title-alignment='left'
     >
-      <p class="" style="white-space:pre-wrap;">$SECTION_NAME</p>
+      <p class='' style='white-space:pre-wrap;'>$SECTION_NAME</p>
     </div>
 
 
@@ -173,18 +189,18 @@
 
 
 <style>
-  .user-items-list-item-container[data-section-id="63a4c9984655f07a0fe899bd"] .list-item-content__title {
+  .user-items-list-item-container[data-section-id='63a4c9984655f07a0fe899bd'] .list-item-content__title {
     font-size: 1.2rem;
   }
-  .user-items-list-item-container[data-section-id="63a4c9984655f07a0fe899bd"] .list-item-content__description {
+  .user-items-list-item-container[data-section-id='63a4c9984655f07a0fe899bd'] .list-item-content__description {
     font-size: 0.9rem;
   }
-  .user-items-list-item-container[data-section-id="63a4c9984655f07a0fe899bd"] .list-item-content__button {
+  .user-items-list-item-container[data-section-id='63a4c9984655f07a0fe899bd'] .list-item-content__button {
     font-size: 0.8rem;
   }
 
   @supports (--test-custom-property: true) {
-    .user-items-list-item-container[data-section-id="63a4c9984655f07a0fe899bd"] {
+    .user-items-list-item-container[data-section-id='63a4c9984655f07a0fe899bd'] {
       --title-font-size-value: 1.2;
       --body-font-size-value: 0.9;
       --button-font-size-value: 0.8;
@@ -193,19 +209,19 @@
 </style>
 
 
-<ul class="
+<ul class='
     user-items-list-item-container
     user-items-list-simple
-  "
-  style="
+  '
+  style='
     grid-gap: 20px 20px;
-  "
-  data-controller="UserItemsListSimple"
-  data-num-columns="2"
-  data-content-order="media-first"
-  data-alignment-vertical="top"
-  data-section-id="63a4c9984655f07a0fe899bd"
-  data-current-context="{
+  '
+  data-controller='UserItemsListSimple'
+  data-num-columns='2'
+  data-content-order='media-first'
+  data-alignment-vertical='top'
+  data-section-id='63a4c9984655f07a0fe899bd'
+  data-current-context='{
 &quot;userItems&quot;: [ $USER_ITEMS_DATA ],
 &quot;styles&quot;: {
 &quot;imageFocalPoint&quot;: {
@@ -335,24 +351,24 @@
 &quot;value&quot;: 40,
 &quot;unit&quot;: &quot;px&quot;
 }
-}"
-  data-media-alignment="left"
-  data-title-alignment="left"
-  data-body-alignment="left"
-  data-button-alignment="left"
-  data-title-placement="left"
-  data-body-placement="left"
-  data-button-placement="left"
-  data-layout-width="full"
-  data-title-font-unit="rem"
-  data-description-font-unit="rem"
-  data-button-font-unit="rem"
-  data-space-between-rows="20px"
-  data-space-between-columns="20px"
-  data-vertical-padding-top-value="3.3"
-  data-vertical-padding-bottom-value="3.3"
-  data-vertical-padding-top-unit="vmax"
-  data-vertical-padding-bottom-unit="vmax"
+}'
+  data-media-alignment='left'
+  data-title-alignment='left'
+  data-body-alignment='left'
+  data-button-alignment='left'
+  data-title-placement='left'
+  data-body-placement='left'
+  data-button-placement='left'
+  data-layout-width='full'
+  data-title-font-unit='rem'
+  data-description-font-unit='rem'
+  data-button-font-unit='rem'
+  data-space-between-rows='20px'
+  data-space-between-columns='20px'
+  data-vertical-padding-top-value='3.3'
+  data-vertical-padding-bottom-value='3.3'
+  data-vertical-padding-top-unit='vmax'
+  data-vertical-padding-bottom-unit='vmax'
 >
 
 
@@ -378,3 +394,18 @@
   </div>
 
 </section>
+
+
+
+";
+
+
+}
+
+
+
+
+
+
+
+?>

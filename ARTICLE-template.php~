@@ -480,7 +480,7 @@ echo "
 
     <div class='header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage'>
       <a
-        href='/'
+        href='../../'
         data-animation-role='header-element'
 
           aria-current='page'
@@ -513,7 +513,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='magazine'
+        href='../../magazine'
 
         data-animation-role='header-element'
 
@@ -537,7 +537,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='features'
+        href='../../features'
 
         data-animation-role='header-element'
 
@@ -692,7 +692,7 @@ echo "
 
     <div class='header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage'>
       <a
-        href='/'
+        href='../../'
         data-animation-role='header-element'
 
           aria-current='page'
@@ -709,7 +709,7 @@ echo "
 
     <div class='header-nav-item header-nav-item--collection'>
       <a
-        href='about'
+        href='../../about'
         data-animation-role='header-element'
 
       >
@@ -725,7 +725,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='magazine'
+        href='../../magazine'
 
         data-animation-role='header-element'
 
@@ -745,7 +745,7 @@ echo "
     <div class='header-nav-item header-nav-item--folder'>
       <a
         class='header-nav-folder-title'
-        href='features'
+        href='../../features'
 
         data-animation-role='header-element'
 

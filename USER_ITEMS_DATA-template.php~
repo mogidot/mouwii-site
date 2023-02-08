@@ -43,7 +43,7 @@ $BODY=$item["BODY"];
 	&quot;systemDataId&quot;: &quot;cc4de2c9-ae10-496b-b91a-a13af09ea794&quot;,
 	&quot;systemDataVariants&quot;: &quot;2136x3000,100w,300w,500w,750w,1000w,1500w&quot;,
 	&quot;systemDataSourceType&quot;: &quot;JPG&quot;,
-	&quot;filename&quot;: &quot;$FIRSTNAME&quot;,
+	&quot;filename&quot;: &quot;$FNAME&quot;,
 	&quot;mediaFocalPoint&quot;: {
 	&quot;x&quot;: 0.5,
 	&quot;y&quot;: 0.5,

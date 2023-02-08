@@ -5,7 +5,7 @@ ff=${f:12}
 for l in $ff; do
 	echo $l
 	php USER_ITEMS_DATA-template.php section=$l > itemdata/$l.dat
-	php SECTION_LIST_ITEM-template.php section=$l > itemdata/$l.html
+	php SECTION_LIST_ITEMS-template.php section=$l > itemdata/$l.html
 	done;
 php SECTION-template.php> SECTIONS.html
 

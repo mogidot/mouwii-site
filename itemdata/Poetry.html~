@@ -1,0 +1,80 @@
+
+
+
+<li
+      class='
+        list-item
+
+      '
+      style='
+
+      '
+      data-is-card-enabled='false'
+    >
+
+
+
+
+
+      <div class='list-item-media'
+        style='
+
+            margin-bottom: 4%;
+
+          width: 100%;
+        '
+      >
+        <div class='list-item-media-inner'
+          data-aspect-ratio='1:1'
+          data-animation-role='image'
+        >
+          <img
+
+            data-image-focal-point=','
+
+            alt=''
+            data-src='../assets/pic.jpg'
+            class='list-image'
+            data-load='true'
+            data-mode='cover'
+            data-use-advanced-positioning='true'
+          />
+        </div>
+      </div>
+
+
+
+        <div class='list-item-content'>
+
+
+    <div class='list-item-content__text-wrapper'>
+
+
+        <h2
+          class='list-item-content__title'
+          style='max-width: 75%;'
+        >Art</h2>
+
+
+
+        <div class='list-item-content__description
+
+          '
+          style='
+            margin-top: 1%;
+            max-width: 75%;
+          '
+        >
+          <p class='' style='white-space:pre-wrap;'>By mogimogi</p><p class='' style='white-space:pre-wrap;'>text | issue1</p><p class='' style='white-space:pre-wrap;'><a href='articles/1234'>View</a></p>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+    </li>
